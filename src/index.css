@@ -1,13 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Pacifico&family=Vina+Sans&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248, 251, 253);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  color: #5a9e86;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 150px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  background-color: #dbf7ed;
+  font-family: vina sans;
+  margin: 0;
+}
+
+.title {
+  margin: 10px;
+}
+
+.introduction {
+  font-size: 16px;
+  text-align: center;
+  width: 70%;
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 30px;
+}
+
+.main {
+  display: flex;
+}
+
+.basket {
+  width: 50px;
+  transition: width 200ms ease-in;
+  padding: 10px;
+  background-color: #dbf7ed;
+}
+
+.basketExtend {
+  width: 600px;
+}
+
+.basket > .button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.basketItem {
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 5px 0;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.basketItem > .button {
+  justify-self: flex-end;
+  align-self: flex-end;
+  color: rgb(247, 77, 77);
+}
+
+.productList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  transition: all 200ms ease-in;
+}
+
+.item {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #508673;
+  width: 15rem;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #dbf7ed;
+  transition: box-shadow 200ms ease-in-out;
+}
+
+.item > img {
+  border-radius: 5px;
+}
+
+.item:hover {
+  box-shadow: 0px 0px 5px 3px #73c9ab;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid;
+  border-radius: 1.5rem;
+  align-self: flex-end;
+  transition: all 100ms ease-in-out;
+  cursor: crosshair;
+}
+
+.button:hover {
+  background-color: #5a9e86;
+}
+
+.cartTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 2px solid;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  background-color: #f32424be;
+  backdrop-filter: blur(2px);
 }

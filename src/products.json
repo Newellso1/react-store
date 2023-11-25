@@ -1,0 +1,72 @@
+[
+  {
+    "title": "White Demon",
+    "id": "1",
+    "description": "White, Classic, Muscle, Vintage",
+    "price": 19.99,
+    "imageUrl": "https://i.ibb.co/cDW1XLY/Car1.jpg"
+  },
+  {
+    "title": "Speedstar",
+    "id": "2",
+    "description": "Modern, Fast, sports, GT, Red, White",
+    "price": 25.0,
+    "imageUrl": "https://i.ibb.co/chbrWRJ/Car2.jpg"
+  },
+  {
+    "title": "Humbug",
+    "id": "3",
+    "description": "Golf, Classic, vintage, vw, blue,",
+    "price": 15.0,
+    "imageUrl": "https://i.ibb.co/1fYBNT0/Car3.jpg"
+  },
+  {
+    "title": "Humbug MKII",
+    "id": "4",
+    "description": "Golf, Classic, vintage, vw, white",
+    "price": 22.0,
+    "imageUrl": "https://i.ibb.co/3NDFrkz/Car4.jpg"
+  },
+  {
+    "title": "One F",
+    "id": "5",
+    "description": "F1, Formula, Fast, Sports, One",
+    "price": 25.5,
+    "imageUrl": "https://i.ibb.co/0Xmt0MS/Car6.jpg"
+  },
+  {
+    "title": "GT-Six",
+    "id": "6",
+    "description": "Modern, Fast, sports, GT, Red, White",
+    "price": 30.0,
+    "imageUrl": "https://i.ibb.co/9rPZHT4/Car7.jpg"
+  },
+  {
+    "title": "First F",
+    "id": "7",
+    "description": "red, Classic, Formula, Vintage",
+    "price": 45.0,
+    "imageUrl": "https://i.ibb.co/rdL51yr/Car9.jpg"
+  },
+  {
+    "title": "B2Future",
+    "id": "8",
+    "description": "Modern, Future, Sports, Fast, White, Gold",
+    "price": 32.0,
+    "imageUrl": "https://i.ibb.co/G5YS15C/Car10.jpg"
+  },
+  {
+    "title": "MK7",
+    "id": "9",
+    "description": "Modern, Future, Sports, Fast, red, Gold",
+    "price": 35.0,
+    "imageUrl": "https://i.ibb.co/xfqq0Yc/Car11.jpg"
+  },
+  {
+    "title": "Delilah",
+    "id": "10",
+    "description": "White, Classic, sports, Vintage",
+    "price": 5.0,
+    "imageUrl": "https://i.ibb.co/6Yxkj4n/Car12.jpg"
+  }
+]
