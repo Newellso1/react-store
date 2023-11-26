@@ -102,7 +102,7 @@ header {
 }
 
 .item:hover {
-  box-shadow: 0px 0px 5px 3px #73c9ab;
+  box-shadow: 0px 0px 5px 3px #73c9ab80;
 }
 
 .button {
@@ -120,7 +120,7 @@ header {
 }
 
 .button:hover {
-  background-color: #5a9e86;
+  background-color: #5a9e8680;
 }
 
 .cartTotal {
